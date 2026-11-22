@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Company Finders is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://companyfinders.com/
+Company Finders provides a data service that identifies local businesses lacking a website or having a broken site. By scanning Google Maps listings across the United States, United Kingdom, Canada, Australia, New Zealand and Ireland, it counts businesses with no online presence and offers paid lists for lead generation. Users can purchase lists at $3 per 1,000 entries, with a minimum $1 charge, and also run SEO checks on existing sites. The platform offers an API and MCP server for programmatic access, enabling integration into custom tools and AI assistants. No account creation is required; an API key is provided upon purchase.
+
+**Areas:** Business · Data · Lead-Generation · API · Marketing
+
+## Company Finders on APIs.io
+
+Everything profiled for Company Finders is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/companyfinders-com/](https://apis.io/providers/companyfinders-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Company Finders Balance API](https://apis.io/apis/companyfinders-com/companyfinders-com-balance-api/) — The Balance API from Company Finders — 1 operation(s) for balance.
+- [Company Finders Check API](https://apis.io/apis/companyfinders-com/companyfinders-com-check-api/) — The Check API from Company Finders — 1 operation(s) for check.
+- [Company Finders Cities API](https://apis.io/apis/companyfinders-com/companyfinders-com-cities-api/) — The Cities API from Company Finders — 1 operation(s) for cities.
+- [Company Finders Count API](https://apis.io/apis/companyfinders-com/companyfinders-com-count-api/) — The Count API from Company Finders — 1 operation(s) for count.
+- [Company Finders Lists API](https://apis.io/apis/companyfinders-com/companyfinders-com-lists-api/) — The Lists API from Company Finders — 2 operation(s) for lists.
+- [Company Finders Seo API](https://apis.io/apis/companyfinders-com/companyfinders-com-seo-api/) — The Seo API from Company Finders — 2 operation(s) for seo.
+- [Company Finders Types API](https://apis.io/apis/companyfinders-com/companyfinders-com-types-api/) — The Types API from Company Finders — 1 operation(s) for types.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Company Finders Agentic Access](https://apis.io/agentic-access/companyfinders-com/companyfinders-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Check](https://apis.io/schemas/companyfinders-com/companyfinders-com-check/)
+- [Count](https://apis.io/schemas/companyfinders-com/companyfinders-com-count/)
+- [FinishedList](https://apis.io/schemas/companyfinders-com/companyfinders-com-finished-list/)
+- [List](https://apis.io/schemas/companyfinders-com/companyfinders-com-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Companyfinders Com Context](https://apis.io/jsonld/companyfinders-com/companyfinders-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Company Finders API Rules](https://apis.io/rules/companyfinders-com/companyfinders-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Company Finders Authentication](https://apis.io/security/companyfinders-com/companyfinders-com-authentication/)
+- [Company Finders Domain Security](https://apis.io/security/companyfinders-com/companyfinders-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Company Finders Plans Pricing](https://apis.io/plans/companyfinders-com/companyfinders-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://companyfinders.com/)
+- [Documentation](https://companyfinders.com/developers)
+- [Getting started](https://companyfinders.com/blog/how-to-pitch-a-business-with-a-broken-website)
+- [API reference](https://companyfinders.com/openapi.json)
+- [Pricing](https://companyfinders.com/pricing)
+- [Blog](https://companyfinders.com/blog)
+- [Terms of service](https://companyfinders.com/terms)
+- [Privacy policy](https://companyfinders.com/privacy)
+- [GitHub](https://github.com/Companyfinders)
+
+## API Evangelist rating
+
+**Kin Score 52.9** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 60.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 48.5 |
+
+**Agent readiness 34.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/companyfinders-com/](https://apis.io/providers/companyfinders-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Company Finders: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/companyfinders-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
